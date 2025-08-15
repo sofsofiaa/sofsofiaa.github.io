@@ -1,0 +1,31 @@
+html>
+<body>
+    <img src="soapswirls.png" style="width:260px; height:200px; display:block; margin-left:auto; margin-right:auto;">
+    <h2 style="text-align:center; font-family:'Courier New', Courier, monospace; margin-top:20px;">
+        Melted Sherbet
+    </h2>
+    <p style="text-align:center; font-family:Arial, sans-serif; margin-top:10px;">
+        Inspired by generative art and the saddness of melting ice cream on a hot day, Melted Sherbet is a colorful digital piece that captures the fluidity and vibrancy of melting sherbet.
+    </p>
+    <img src="chromematcha.png" style="width:260px; height:200px; display:block; margin:20px auto 0 auto;">
+    <h2 style="text-align:center; font-family:'Georgia', serif; margin-top:30px;">
+        Chrome Matcha
+    </h2>
+    <p style="text-align:center; font-family:Arial, sans-serif; margin-top:10px;">
+       Taking inspirtaion from the generative artist, Arttsu Koskela creates in a
+generative art format, created by a digital photo, then manipulated with coding. As I take that inspiration, I created Chrome Matcha, a digital art piece that captures the essence of a refreshing iced matcha latte with a modern twist manipulated with adobe photoshop,
+procreate, and runway inserted a similar formulacreated by artist: noise, saturation, glare, color
+added sharpen, chrome abrasion, perspective blur to imitate effects.
+    </p>
+    <audio controls style="display:block; margin:30px auto 0 auto;">
+        <source src="PROJECT 3 .wav" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <h2 style="text-align:center; font-family:'Verdana', Geneva, Tahoma, sans-serif; margin-top:20px;">
+      Runway
+    </h2>
+    <p style="text-align:center; font-family:Arial, sans-serif; margin-top:10px;">
+        Made on Abelton Live, I created a piece that sounds what models on the runway walk to.
+    </p>
+</body>
+</html>
