@@ -1,31 +1,90 @@
 <html>
+<head>
+    <title>Sofia Osornio Arreola Portfolio</title>
+    <style>
+        body {
+            background-color: #E8DCCA;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .menu {
+            text-align: center;
+            padding: 20px 0 10px 0;
+            font-family: Arial, sans-serif;
+        }
+        .menu a {
+            margin: 0 20px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 18px;
+            transition: color 0.2s;
+        }
+        .menu a:hover {
+            color: #8C7B6B;
+        }
+        .center-image {
+            display: block;
+            margin: 40px auto 0 auto;
+            width: 260px;
+            height: 200px;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+        }
+        .section-title {
+            text-align: center;
+            font-family: 'Georgia', serif;
+            margin-top: 30px;
+            color: #8C7B6B;
+            font-size: 28px;
+        }
+        .portfolio-text {
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+            margin-top: 10px;
+            font-size: 18px;
+            color: #333;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        audio {
+            display: block;
+            margin: 30px auto 0 auto;
+        }
+    </style>
+</head>
 <body>
-    <img src="soapswirls.png" style="width:260px; height:200px; display:block; margin-left:auto; margin-right:auto;">
-    <h2 style="text-align:center; font-family:'Courier New', Courier, monospace; margin-top:20px;">
-        Melted Sherbet
-    </h2>
-    <p style="text-align:center; font-family:Arial, sans-serif; margin-top:10px;">
-        Inspired by generative art and the saddness of melting ice cream on a hot day, Melted Sherbet is a colorful digital piece that captures the fluidity and vibrancy of melting sherbet.
+    <div class="menu">
+        <a href="about.html" target="_blank">About</a>
+        <a href="portfolio.html" target="_blank">Portfolio</a>
+        <a href="contact.html" target="_blank">Contact</a>
+    </div>
+    <img src="chromematcha.png" alt="Chrome Matcha" class="center-image">
+    <h2 class="section-title">Chrome Matcha</h2>
+    <p class="portfolio-text">
+        Chrome Matcha blends metallic textures with soothing green hues, evoking the calm and energy of a matcha latte in a futuristic world.
     </p>
-    <img src="chromematcha.png" style="width:260px; height:200px; display:block; margin:20px auto 0 auto;">
-    <h2 style="text-align:center; font-family:'Georgia', serif; margin-top:30px;">
-        Chrome Matcha
-    </h2>
-    <p style="text-align:center; font-family:Arial, sans-serif; margin-top:10px;">
-       Taking inspirtaion from the generative artist, Arttsu Koskela creates in a
-generative art format, created by a digital photo, then manipulated with coding. As I take that inspiration, I created Chrome Matcha, a digital art piece that captures the essence of a refreshing iced matcha latte with a modern twist manipulated with adobe photoshop,
-procreate, and runway inserted a similar formulacreated by artist: noise, saturation, glare, color
-added sharpen, chrome abrasion, perspective blur to imitate effects.
+    <img src="soapswirls.png" alt="Soap Swirls" class="center-image">
+    <h2 class="section-title">Soap Swirls</h2>
+    <p class="portfolio-text">
+        Soap Swirls is a digital art project inspired by the mesmerizing patterns found in soap bubbles, exploring color and motion.
     </p>
-    <audio controls style="display:block; margin:30px auto 0 auto;">
-        <source src="PROJECT 3 .wav" type="audio/mpeg">
+    <audio controls>
+        <source src="project3.wav" type="audio/wav">
         Your browser does not support the audio element.
     </audio>
-    <h2 style="text-align:center; font-family:'Verdana', Geneva, Tahoma, sans-serif; margin-top:20px;">
-      Runway
-    </h2>
-    <p style="text-align:center; font-family:Arial, sans-serif; margin-top:10px;">
-        Made on Abelton Live, I created a piece that sounds what models on the runway walk to.
+    <h2 class="section-title">Project 3 Audio</h2>
+    <p class="portfolio-text">
+        Listen to my original audio piece, created to accompany my visual projects.
     </p>
+    <h2 class="section-title">Generative Art Sketch</h2>
+    <div class="portfolio-text">
+        <!-- You can embed your p5.js sketch here using an iframe or add a canvas later -->
+        <iframe src="https://editor.p5js.org/sosornioarreola/full/jPn0Kf3_R" width="400" height="400" style="border:none; display:block; margin:0 auto;"></iframe>
+    </div>
+    <a href="index2.html">Back to Home</a>
 </body>
 </html>
